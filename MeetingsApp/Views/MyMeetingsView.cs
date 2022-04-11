@@ -17,7 +17,7 @@ namespace MeetingsApp.Controlers
             _currentUser = person;
         }
 
-        public void ShowTitle()
+        private void ShowTitle()
         {
             Console.WriteLine("My meetings\n");
         }
@@ -106,6 +106,7 @@ namespace MeetingsApp.Controlers
                 WaitForEnter();
             }
         }
+
         private void WaitForEnter()
         {
             Console.Write("Press <Enter> to continue... ");

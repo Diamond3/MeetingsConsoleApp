@@ -16,7 +16,7 @@ namespace MeetingsApp.Controlers
             _currentUser = person;
         }
 
-        public void ShowTitle()
+        private void ShowTitle()
         {
             Console.WriteLine("Creating new meeting\n");
         }

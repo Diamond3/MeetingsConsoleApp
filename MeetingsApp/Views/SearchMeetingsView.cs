@@ -13,7 +13,7 @@ namespace MeetingsApp.Controlers
             _service = service;
         }
 
-        public void ShowTitle()
+        private void ShowTitle()
         {
             Console.WriteLine("Meeting search\n");
         }

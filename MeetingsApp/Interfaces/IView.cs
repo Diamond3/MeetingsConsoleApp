@@ -2,8 +2,6 @@
 {
     internal interface IView
     {
-        void ShowTitle();
-
         void LoadBody();
     }
 }
